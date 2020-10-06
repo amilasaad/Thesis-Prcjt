@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    height: 100vh;
+    background-image: url(IMG_42411.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#pic{
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+    top: -30px;
+    padding-right: 500x;
+    position: absolu
+}
+.head{
+    width: 500px;
+    height: 200px;
+    background-color: #202020;
+    padding: 70px 30px;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    position: absolute;
+    border-radius: 10px;
+    box-shadow: 4px 4px 6px #000000;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Home page</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+            <header>
+                <div>
+                    <h1>Seaweeds Weight Monitoring System</h1>
+                </div>
+                <div>
+                    <h2>Mindanao State University Tawi-Tawi College of Technology and Oceanography
+                        <br>Seaweeds Post Harvest Laboratory</h2>
+                </div>
+           </header>
+        <section class = "head">
+            <div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <h3>Seaweeds are important in the traditional diet of the local people of Tawi-Tawi.
+                    Public markets in Tawi-Tawi constitute strong seaweed entrepreneurship virtually 
+                    participated in by local women. Dubbed as the “food basket of Tawi-Tawi” (Mercado 2008),
+                    the public concourse of seaweed traders and possible buyers in Batu-Batu was found significantly
+                    larger (i.e., a larger difference in terms of the number of respondents) than that of Bongao.
+                    Although the majority of local seaweed occupations involve domestication of eucheumatoids,
+                    the local people of Tawi-Tawi also gather substantial amounts of wild seaweeds for trade.
+                    Here, on the basis of morphology, seven species were identified.It appears that the number of
+                    seaweed ethnotaxa else where in the Philippines, particularly the northern region of the country
+                    (Dumilag 2018), is higher than what is so far known in Tawi-Tawi. Probably, such a list for Tawi-Tawi
+                    will be increased once the research is conducted involving non-trade taxa
+                    (i.e., those that are gathered exclusive for food sustenance and other commercial purposes)
+                    at wider sampling site coverage.
+                    </h3>
+            </div>
+        </section>
+
+        <nav id="sideNav">
+            <img src="IMG_90511-5.jpg" id="userpic">
+            <h4>Amilbangsa B. Asaad</h4>
+            <ul>
+                <br>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="login.html">Log-Out</a></li>
+            </ul>
+        </nav>
+        <img src="logoNav.png" id="logoNav">
+        <script>
+        var menuBtn = document.getElementById("logoNav")
+        var sideNav = document.getElementById("sideNav")
+        
+        sideNav.style.right = "-280px";
+        menuBtn.onclick = function(){
+            if(sideNav.style.right == "-280px"){
+                sideNav.style.right = "0";
+            }else{
+                sideNav.style.right = "-280px";
+
+            }
+        }
+        </script>
+    </body>
+</html>
