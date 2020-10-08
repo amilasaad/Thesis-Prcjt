@@ -70,7 +70,7 @@ p{
     text-align: justify;
     color: #ffff;
 }
-h3{
+h2{
     margin-top: 20px;
     font-family: Roboto;
     font-size: 7pt;
@@ -79,12 +79,13 @@ h3{
 }
 h4{
     margin-top: 20px;
+    margin-bottom: 10px;
     font-family: Roboto;
     font-size: 7pt;
     text-align: justify;
     color: #ffff;
 }
-h2{
+#sideNav h4{
     font-family: Roboto;
     color: #ffff;
     text-align: center;
@@ -116,7 +117,7 @@ h2{
     color: #ffff;
     display: block;
     width: 100%;
-    padding-left: 20px;
+    padding-left: 60px;
     box-sizing: border-box;
     line-height: 50px;
     font-size: 15px;
@@ -139,4 +140,60 @@ h2{
 nav ul li{
     list-style: none;
     font-family: sans-serif;
+}
+.head #fbBtn{
+    height: 20px;
+    width: 20px;
+    margin-top: 40px;
+    position: fixed;
+}
+.head a{
+    margin-left: 30px;
+    margin-top:45px;
+    text-decoration: none;
+    color: white;
+    font-family: Roboto;
+    font-size: 7pt;
+    position: fixed;
+}
+.head #glBtn{
+    height: 25px;
+    width: 25px;
+    margin-left: -2px;
+    margin-top: 40px;
+    position: fixed;
+}
+.contact h1{
+    font-family: sans-serif;
+    font-size: 10pt;
+    margin-top: 20px;
+    position: fixed;
+}
+#sideNav #home{
+    width: 35px;
+    height: 35px;
+    margin-top: 5px;
+    position: absolute;
+    padding-left: 10px;
+}
+#sideNav #das{
+    width: 20px;
+    height: 20px;
+    margin-top: 12px;
+    position: absolute;
+    padding-left: 20px
+}
+#sideNav #abt{
+    width: 30px;
+    height: 30px;
+    margin-top: 12px;
+    position: absolute;
+    padding-left: 20px;
+}
+#sideNav #oi{
+    width: 20px;
+    height: 20px;
+    margin-top: 12px;
+    position: absolute;
+    padding-left: 20px;
 }

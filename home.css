@@ -73,7 +73,7 @@ h4{
     color: #ffff;
     display: block;
     width: 100%;
-    padding-left: 20px;
+    padding-left: 60px;
     box-sizing: border-box;
     line-height: 50px;
     font-size: 15px;
@@ -84,6 +84,11 @@ h4{
 } 
 #sideNav a:hover{
     background: #ff0000;
+}
+#logoNav:hover ~ #sideNav{
+    width: 80px;
+    margin-right: 170px;
+    font-size: 20px;
 }
 #userpic{
     width: 100px;
@@ -96,4 +101,32 @@ h4{
 nav ul li{
     list-style: none;
     font-family: sans-serif;
+}
+#sideNav #home{
+    width: 35px;
+    height: 35px;
+    margin-top: 5px;
+    position: absolute;
+    padding-left: 10px;
+}
+#sideNav #das{
+    width: 20px;
+    height: 20px;
+    margin-top: 12px;
+    position: absolute;
+    padding-left: 20px
+}
+#sideNav #abt{
+    width: 30px;
+    height: 30px;
+    margin-top: 12px;
+    position: absolute;
+    padding-left: 20px;
+}
+#sideNav #oi{
+    width: 20px;
+    height: 20px;
+    margin-top: 12px;
+    position: absolute;
+    padding-left: 20px;
 }
