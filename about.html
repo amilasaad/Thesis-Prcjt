@@ -2,16 +2,69 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Login page</title>
+        <title>about</title>
         <link rel="stylesheet" href="about.css">
     </head>
     <body>
-        <section id = "header">
+            <header>
+                    <div>
+                        <h5>Seaweeds Weight Monitoring System</h5>
+                    </div>
+                    <div>
+                        <h6>Mindanao State University Tawi-Tawi College of Technology and Oceanography
+                            <br>Seaweeds Post Harvest Laboratory</h6>
+                    </div>
+               </header>
+
+        <section id = "atHead">
             <div class= "head">
-                <img src= "IMG_42411.jpg" id="pic">
-                <h1>Amilbangsa Bahauddin Asaad</h1>
-                <h2>Mindanao State University Tawi-Tawi College of Technology and Oceanography</h2>
+                <img src= "IMG_90511-5.jpg" id="pic">
+                <h1>AMILBANGSA BAHAUDDIN ASAAD</h1>
+                <div class ="inf1">
+                    <p>Hello guys, I am a fourth year student 
+                        from Mindanao State University Tawi-Tawi 
+                        College of Technology and Oceanography
+                        taking up Bachelor of Science in Information Technology.
+                    <p>
+                </div>
+                <div class="inf2">
+                <h3>
+                    Skills: Programming, Graphic Designing, Video and Photo Editing, Photography and 2D Animator.
+                </h3>
+                </div>
+                <div>
+                    <h4>
+                        Working Experience: Freelance Photographer(Current Work), Developed Provincial Tawi-Tawi Scholars System(Implemented 2019),
+                        Developed IICT Voting System(Implemented 2018-2019 & 2019-2020).
+                    </h4>
+                </div>
             </div>
         </section>
+        <nav id="sideNav">
+                <img src="IMG_90511-5.jpg" id="userpic">
+                <h2>Amilbangsa B. Asaad</h2>
+                <ul>
+                    <br>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="#">Dashboard</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="login.html">Log-out</a></li>
+                </ul>
+            </nav>
+            <img src="logoNav.png" id="logoNav">
+            <script>
+            var menuBtn = document.getElementById("logoNav")
+            var sideNav = document.getElementById("sideNav")
+            
+            sideNav.style.right = "-280px";
+            menuBtn.onclick = function(){
+                if(sideNav.style.right == "-280px"){
+                    sideNav.style.right = "0";
+                }else{
+                    sideNav.style.right = "-280px";
+    
+                }
+            }
+            </script>
     </body>
 </html>

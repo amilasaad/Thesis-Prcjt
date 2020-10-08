@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Home page</title>
-        <link rel="stylesheet" href="style-guest.css">
+        <link rel="stylesheet" href="home.css">
     </head>
     <body>
             <header>
@@ -39,5 +39,32 @@
                     </h3>
             </div>
         </section>
+
+        <nav id="sideNav">
+            <img src="IMG_90511-5.jpg" id="userpic">
+            <h4>Amilbangsa B. Asaad</h4>
+            <ul>
+                <br>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="login.html">Log-out</a></li>
+            </ul>
+        </nav>
+        <img src="logoNav.png" id="logoNav">
+        <script>
+        var menuBtn = document.getElementById("logoNav")
+        var sideNav = document.getElementById("sideNav")
+        
+        sideNav.style.right = "-280px";
+        menuBtn.onclick = function(){
+            if(sideNav.style.right == "-280px"){
+                sideNav.style.right = "0";
+            }else{
+                sideNav.style.right = "-280px";
+
+            }
+        }
+        </script>
     </body>
 </html>
