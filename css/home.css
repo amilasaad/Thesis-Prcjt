@@ -1,47 +1,33 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-header{
+
+header {
     height: 75px;
     width: 100%;
     background-color: #202020;
     position: fixed;
 }
-header input[type="submit"]{
-    width: 100px;
-    height: 30px;
-    border: none;
-    border-radius: 5px;
-    top: 21px;
-    right: 50px;
-    position: fixed;
-    cursor: pointer;
-    background: #ff0000;
-    font-size: 10pt;
-    font-family: sans-serif;
-    color: #ffff;
-}
-header input[type="submit"]:hover{
-    box-shadow: 0px 0px 10px #ff0000;
-    color: #353535;
-}
-.head{
+
+.head {
     height: 100vh;
     width: 100%;
-    background: url(IMG_42411.jpg);
+    background: url(../assets/IMG_42411.jpg);
     background-position: center;
     background-size: cover;
 }
-header h1{
- margin-left: 50px;
- margin-top: 5px;
- margin-bottom: 0px;
- font-size: 20pt;
- color: #ff0000;
- font-family: Impact;
+
+header h1 {
+    margin-left: 50px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-size: 20pt;
+    color: #ff0000;
+    font-family: Impact;
 }
-header h2{
+
+header h2 {
     font-family: Roboto;
     font-size: 7pt;
     font-weight: 100;
@@ -50,7 +36,8 @@ header h2{
     margin-left: 50px;
     margin-bottom: 50px;
 }
-h3{ 
+
+h3 {
     font-family: 'Roboto';
     color: #ffff;
     text-align: justify;
@@ -59,14 +46,16 @@ h3{
     font-weight: 100;
     margin-left: 50px;
 }
-h4{
+
+h4 {
     font-family: Roboto;
     color: #ffff;
     text-align: center;
     font-size: 10pt;
     margin-bottom: 20px;
 }
-#logoNav{
+
+#logoNav {
     width: 50px;
     position: fixed;
     right: 65px;
@@ -74,7 +63,8 @@ h4{
     z-index: 2;
     cursor: pointer;
 }
-#sideNav{
+
+#sideNav {
     width: 250px;
     height: 100%;
     position: fixed;
@@ -86,12 +76,13 @@ h4{
     transition: 1s;
     transition-property: right;
 }
-#sideNav a{
+
+#sideNav a {
     text-decoration: none;
     color: #ffff;
     display: block;
     width: 100%;
-    padding-left: 20px;
+    padding-left: 60px;
     box-sizing: border-box;
     line-height: 50px;
     font-size: 15px;
@@ -99,11 +90,19 @@ h4{
     border-color: #ff0000;
     color: #ffffff;
     transition: 0.5s;
-} 
-#sideNav a:hover{
+}
+
+#sideNav a:hover {
     background: #ff0000;
 }
-#userpic{
+
+#logoNav:hover~#sideNav {
+    width: 80px;
+    margin-right: 170px;
+    font-size: 20px;
+}
+
+#userpic {
     width: 100px;
     height: 100px;
     margin-top: 50px;
@@ -111,7 +110,40 @@ h4{
     background-position: center;
     border-radius: 50%;
 }
-nav ul li{
+
+nav ul li {
     list-style: none;
     font-family: sans-serif;
+}
+
+#sideNav #home {
+    width: 35px;
+    height: 35px;
+    margin-top: 5px;
+    position: absolute;
+    padding-left: 10px;
+}
+
+#sideNav #das {
+    width: 20px;
+    height: 20px;
+    margin-top: 12px;
+    position: absolute;
+    padding-left: 20px
+}
+
+#sideNav #abt {
+    width: 30px;
+    height: 30px;
+    margin-top: 12px;
+    position: absolute;
+    padding-left: 20px;
+}
+
+#sideNav #oi {
+    width: 20px;
+    height: 20px;
+    margin-top: 12px;
+    position: absolute;
+    padding-left: 20px;
 }
