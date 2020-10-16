@@ -1,14 +1,16 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-header{
+
+header {
     height: 75px;
     width: 100%;
     background-color: #202020;
     position: fixed;
 }
-header h5{
+
+header h5 {
     margin-left: 50px;
     margin-top: 5px;
     margin-bottom: 0px;
@@ -16,27 +18,31 @@ header h5{
     color: #ff0000;
     font-family: Impact;
 }
-header h6{
-       font-family: Roboto;
-       font-size: 7pt;
-       font-weight: 100;
-       color: #ffff;
-       margin-top: 0px;
-       margin-left: 50px;
-       margin-bottom: 50px;
+
+header h6 {
+    font-family: Roboto;
+    font-size: 7pt;
+    font-weight: 100;
+    color: #ffff;
+    margin-top: 0px;
+    margin-left: 50px;
+    margin-bottom: 50px;
 }
-body{
+
+body {
     height: 100vh;
-    background-image: url(IMG_42411.jpg);
+    background-image: url(../assetS/IMG_42411.jpg);
     background-position: center;
     background-size: cover;
 }
-#atHead{
+
+#atHead {
     left: 50%;
     top: 60%;
     position: fixed;
 }
-#pic{
+
+#pic {
     border-radius: 100%;
     height: 100px;
     width: 100px;
@@ -44,40 +50,45 @@ body{
     left: 130px;
     position: absolute;
 }
-.head{
+
+.head {
     width: 300px;
     height: 300px;
     background-color: #202020;
     padding: 70px 30px;
     top: 50%;
     left: 50%;
-    transform:translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     position: absolute;
     border-radius: 10px;
     box-shadow: 4px 4px 6px #000000;
 }
-h1{
+
+h1 {
     font-family: sans-serif;
     font-size: 10pt;
     text-align: center;
     letter-spacing: 4px;
     color: #ffff;
 }
-p{
+
+p {
     margin-top: 20px;
     font-family: Roboto;
     font-size: 7pt;
     text-align: justify;
     color: #ffff;
 }
-h2{
+
+h2 {
     margin-top: 20px;
     font-family: Roboto;
     font-size: 7pt;
     text-align: justify;
     color: #ffff;
 }
-h4{
+
+h4 {
     margin-top: 20px;
     margin-bottom: 10px;
     font-family: Roboto;
@@ -85,14 +96,16 @@ h4{
     text-align: justify;
     color: #ffff;
 }
-#sideNav h4{
+
+#sideNav h4 {
     font-family: Roboto;
     color: #ffff;
     text-align: center;
     font-size: 10pt;
     margin-bottom: 20px;
 }
-#logoNav{
+
+#logoNav {
     width: 50px;
     position: fixed;
     right: 65px;
@@ -100,7 +113,8 @@ h4{
     z-index: 2;
     cursor: pointer;
 }
-#sideNav{
+
+#sideNav {
     width: 250px;
     height: 100%;
     position: fixed;
@@ -112,7 +126,8 @@ h4{
     transition: 1s;
     transition-property: right;
 }
-#sideNav a{
+
+#sideNav a {
     text-decoration: none;
     color: #ffff;
     display: block;
@@ -125,11 +140,13 @@ h4{
     border-color: #ff0000;
     color: #ffffff;
     transition: 0.5s;
-} 
-#sideNav a:hover{
+}
+
+#sideNav a:hover {
     background: #ff0000;
 }
-#userpic{
+
+#userpic {
     width: 100px;
     height: 100px;
     margin-top: 50px;
@@ -137,60 +154,69 @@ h4{
     background-position: center;
     border-radius: 50%;
 }
-nav ul li{
+
+nav ul li {
     list-style: none;
     font-family: sans-serif;
 }
-.head #fbBtn{
+
+.head #fbBtn {
     height: 20px;
     width: 20px;
     margin-top: 40px;
     position: fixed;
 }
-.head a{
+
+.head a {
     margin-left: 30px;
-    margin-top:45px;
+    margin-top: 45px;
     text-decoration: none;
     color: white;
     font-family: Roboto;
     font-size: 7pt;
     position: fixed;
 }
-.head #glBtn{
+
+.head #glBtn {
     height: 25px;
     width: 25px;
     margin-left: -2px;
     margin-top: 40px;
     position: fixed;
 }
-.contact h1{
+
+.contact h1 {
     font-family: sans-serif;
     font-size: 10pt;
     margin-top: 20px;
     position: fixed;
 }
-#sideNav #home{
+
+#sideNav #home {
     width: 35px;
     height: 35px;
     margin-top: 5px;
     position: absolute;
     padding-left: 10px;
 }
-#sideNav #das{
+
+#sideNav #das {
     width: 20px;
     height: 20px;
     margin-top: 12px;
     position: absolute;
     padding-left: 20px
 }
-#sideNav #abt{
+
+#sideNav #abt {
     width: 30px;
     height: 30px;
     margin-top: 12px;
     position: absolute;
     padding-left: 20px;
 }
-#sideNav #oi{
+
+#sideNav #oi {
     width: 20px;
     height: 20px;
     margin-top: 12px;

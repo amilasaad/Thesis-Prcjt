@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Home page</title>
-        <link rel="stylesheet" href="home.css">
+        <link rel="stylesheet" href="../css/home.css">
     </head>
     <body>
             <header>
@@ -41,31 +41,18 @@
         </section>
 
         <nav id="sideNav">
-            <img src="IMG_90511-5.jpg" id="userpic">
+            <img src="../assets/IMG_90511-5.jpg" id="userpic">
             <h4>Amilbangsa B. Asaad</h4>
             <ul>
                 <br>
-                <li><img src="home.png" id="home"><a href="home.html">Home</a></li>
-                <li><img src="das.png" id="das"><a href="#">Dashboard</a></li>
-                <li><img src="abt.png" id="abt"><a href="about.html">About</a></li>
-                <li><img src="oi.png" id="oi"><a href="login.html">Log-out</a></li>
+                <li><img src="../assets/home.png" id="home"><a href="home.html">Home</a></li>
+                <li><img src="../assets/das.png" id="das"><a href="#">Dashboard</a></li>
+                <li><img src="../assets/abt.png" id="abt"><a href="about.html">About</a></li>
+                <li><img src="../assets/oi.png" id="oi"><a href="login.html">Log-out</a></li>
             </ul>
         </nav>
         <input type="checkbox" id = "chck">
-        <img src="logoNav.png" id="logoNav">
-        <script>
-        var menuBtn = document.getElementById("logoNav")
-        var sideNav = document.getElementById("sideNav")
-        
-        sideNav.style.right = "-280px";
-        menuBtn.onclick = function(){
-            if(sideNav.style.right == "-280px"){
-                sideNav.style.right = "0";
-            }else{
-                sideNav.style.right = "-280px";
-
-            }
-        }
-        </script>
+        <img src="../assets/logoNav.png" id="logoNav">
+        <script src="../js/sidebar.js"></script>
     </body>
 </html>

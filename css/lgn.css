@@ -1,22 +1,25 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-#header{
+
+#header {
     height: 100vh;
-    background-image: url(IMG_42411.jpg);
+    background-image: url(../assets/IMG_42411.jpg);
     background-position: center;
     background-size: cover;
 }
-h1{
+
+h1 {
     margin-top: 0px;
-    color:white;
+    color: white;
     font-family: sans-serif;
     margin-bottom: 20px;
     text-align: center;
-    margin-bottom: 0;   
+    margin-bottom: 0;
 }
-h2{
+
+h2 {
     margin-top: 0;
     font-family: Roboto;
     font-size: 5px;
@@ -24,7 +27,8 @@ h2{
     color: white;
     margin-bottom: 10px;
 }
-#pic{
+
+#pic {
     border-radius: 50px;
     height: 100px;
     width: 100px;
@@ -33,23 +37,27 @@ h2{
     position: absolute;
     box-shadow: 4px 4px 6px #202020
 }
-.head{
+
+.head {
     width: 500px;
     height: 200px;
     background-color: #202020;
     padding: 70px 30px;
     top: 50%;
     left: 50%;
-    transform:translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     position: absolute;
     border-radius: 10px;
     box-shadow: 4px 4px 6px #000000;
 }
-.head input{
+
+.head input {
     width: 100%;
     margin-bottom: 10px;
 }
-.head input[type="text"], input[type="password"]{
+
+.head input[type="text"],
+input[type="password"] {
     margin-top: 10px;
     height: 30px;
     background: transparent;
@@ -60,7 +68,8 @@ h2{
     font-size: 14px;
     color: #ffff;
 }
-.head input[type="submit"]{
+
+.head input[type="submit"] {
     margin-top: 20px;
     height: 40px;
     border-radius: 10px;
@@ -72,11 +81,13 @@ h2{
     color: #ffff;
     cursor: pointer;
 }
-.head input[type="submit"]:hover{
+
+.head input[type="submit"]:hover {
     color: #202020;
     box-shadow: 0px 0px 20px #ff0000;
 }
-a{
+
+a {
     text-decoration: none;
     color: white;
     font-family: Roboto;
